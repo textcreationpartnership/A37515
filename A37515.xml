@@ -1,0 +1,850 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A most delightful history of the famous clothier of England, called Jack of Newbery ... written by W.S.</title>
+            <author>W. S., 17th cent.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1684</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 24 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A37515</idno>
+            <idno type="STC">Wing D958</idno>
+            <idno type="STC">ESTC R29348</idno>
+            <idno type="EEBO-CITATION">11077066</idno>
+            <idno type="OCLC">ocm 11077066</idno>
+            <idno type="VID">46274</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A37515)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 46274)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1422:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A most delightful history of the famous clothier of England, called Jack of Newbery ... written by W.S.</title>
+                  <author>W. S., 17th cent.</author>
+                  <author>Deloney, Thomas, 1543?-1600.</author>
+               </titleStmt>
+               <extent>20 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by H.B. for W. Thackeray,</publisher>
+                  <pubPlace>[S.l.] :</pubPlace>
+                  <date>1684.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: pages faded and tightly bound with loss of print.</note>
+                  <note>Attributed by Wing and NUC pre-1956 imprints to Thomas Deloney.</note>
+                  <note>Reproduction of original in the Magdalene College Library, Cambridge University.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Winchcombe, John, d. 1520 --  Fiction.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-03</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2012-03</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:46274:1"/>
+            <pb facs="tcp:46274:1"/>
+            <p>A moſt Delightful HISTORY Of the famous <hi>Clothier of</hi> England, CALLED, <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ACK of NEWBERY.</p>
+            <p>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n the days of King <hi>Henry</hi> the Eeight; how <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e was beloved of his Miſtriſs above all her wealthier Sutors: what great and valiant things he did for <hi>England:</hi> and the great number of poor he daily cheriſhed.</p>
+            <p>
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d how (when the King ſent for him) he refuſed (with his company) to leave the Hill of Ants to go to the King: and therefore the King went to him: which he wittily excuſed: with many other very pleaſant paſſages.</p>
+            <p>Written by <hi>W. S. F. C.</hi>
+            </p>
+            <p>Printed by <hi>H. B.</hi> for <hi>W. Thackeray</hi> at the Angel in Duck-Lane. 1684.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:46274:2" rendition="simple:additions"/>
+            <pb n="2" facs="tcp:46274:2"/>
+            <head>The moſt delightful Hi<g ref="char:EOLhyphen"/>ſtory of JACK of <hi>Newberry.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">I</seg>N the Reign of King <hi>Henry</hi> the Eighth, one <hi>John Winch<g ref="char:EOLhyphen"/>comb,</hi> being an Apprentice to a rich Clothier in the town of <hi>Newberry</hi> in <hi>Barkſhire,</hi> a pretty handſome Youth, his Maſter dyed, and left his Miſtriſs a widow; <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ho perceiving <hi>Jack</hi> to be a faithful, careful, <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd truſty Servant, ſhe put him in great truſt <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n the Houſe; who as carefully performed the <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ruſt repoſed in him.</p>
+            <p>His Miſtriſs having many Sutors com<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ng to her, could not fancy any: for her man <hi>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ohn</hi> had ſtoln away her Heart. The Par<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>on of <hi>Spinhome-land</hi> woo'd her, and often ſo<g ref="char:EOLhyphen"/>licited with her to make her his wife, but <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ould not obtain her love, becauſe he was a Clergy-man; too much (ſhe thought) de<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oted to his Study. A rich Tanner was a <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>econd wooer, but could not ſpeed; for
+<pb n="3" facs="tcp:46274:3"/> though he was rich, yet was he too old for her young and luſty deſires. A Ta<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lor was a third man, who was almoſt confident of her love; but all in vain, for her man <hi>John,</hi> oh! he was the man that had ſo wounded her heart that ſhe could love no other man.</p>
+            <p>She ſeeing the backwardneſs of <hi>John,</hi> her man (after many occaſions which ſhe gave him to wooe her) came at laſt, and told him plainly that ſhe loved him, which ſecret ſhe did earneſtly deſire him not to impart to any: but he very modeſtly bluſhing with a Roſie colour in his cheeks, not knowing how to expreſs himſelf as he deſired, being aſtoniſhed her eat; anſwered: <hi>Sweet Miſtriſs</hi> (quoth he) <hi>I am but a Child to undertake ſo great a thing! it is a charge, the diſcharge whereof me thinks I fear to undertake:</hi> At which anſwer, ſhe was ſomething diſcouraged in her ſute for the pre<g ref="char:EOLhyphen"/>ſent; and kiſſing of him, brake off diſcourſe for that time; and night approaching, ſhe went to Bed; but took but little reſt: but either ſlumbering, (at the beſt;) or dreaming of her pretty man <hi>John.</hi> She was ſo trou<g ref="char:EOLhyphen"/>bled, as if ſhe had been wounded in a Pri<g ref="char:EOLhyphen"/>ſon, and with many cogitations of her Beloved, fetched many deep ſighs in that
+<pb n="4" facs="tcp:46274:3"/> doleſom and dark night: thinking it long e're <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>orning came: rejoycing to ſee the light ap<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ar: more to embrace her dear ſervant, or ra<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>her Maſter, <hi>John.</hi>
+            </p>
+            <p>She going to ſee <hi>Bartholomew</hi> Fair, as Women uſe to do, to ſee and be ſeen, took her <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>n <hi>Jo<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n</hi> with her: who whilſt ſhe was talk<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>g with a friend, eſpyed him ſaluting a pretty <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aid, which made her own mouth water: and <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ting her lips, ſhe left diſcourſing with her <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eighbor to go to <hi>John,</hi> to prevent his further <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>miliarity with the maid.</p>
+            <p>Afterwards ſhe met with the Taylor her <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>weet-heart, ſo neat as could be, in the <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>air: who deſiring her to drink a Cup of <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ine with him, was denied again and again, at by importunity ſhe was perſwaded: and <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> eſpying the Tanner, called him into the <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>avern to them, to help to bear Charges: <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ttle imagining that he was a Sutor to the <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ame VVidow: and both of them eſpying <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Parſon go by, called him in, expecting <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> make him their ſolliciter: thus were they <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll meerly drawn into <hi>Cupid's</hi> Paradice: <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ut when each had diſcovered their intents <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> other, they were all exceedingly perplexed, <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot knowing how this Diviſion mig<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>e ended: At laſt, it was deſired of t<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e
+<pb n="5" facs="tcp:46274:4"/> Widow which of them ſhe loved beſt: and ſhe anſwered, that ſhe loved them all; and gave them thanks for their charges; but (quoth the Parſon) can you find in your heart to marry me? It is your Office to marry, quoth ſhe, and not mine. Then (quoth the Tanner) will you make me your Husband? Truly Neighbour, quoth ſhe, me thinks you might better be my Father, you are of great Years to marry ſuch a young VVidow as I am. Then (quoth the Taylor) widow, it is I that muſt enjoy you; ſhall you and I be married? Yes, I hope ſo (quoth the widow) when we and our ſweet-hearts are agreed: So deſiring to take her leave of them, giving them thanks for their coſts they ſpent on her, ſhe aroſe up to go away; but they deſiring a full anſwer from her, de<g ref="char:EOLhyphen"/>ſired her to give them better ſatisfaction to their Requeſts. If (quoth ſhe) you will come to my Houſe on Thursday, I will give you full ſatisfaction: at which time they all came; and ſhe told them all then plainly, that ſhe would marry none of them, for ſhe had one nearer home, whom ſhe loved ſo well, that ſhe could not marry any other man; ſo they went all away very ſad and diſcontented.</p>
+            <p>Night approaching, ſhe talked private<g ref="char:EOLhyphen"/>ly
+<pb n="6" facs="tcp:46274:4"/> with her man <hi>John,</hi> wooing him to marry <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>r; which he ſtill through baſhfulneſs <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>fuſed: And when night approached, ſhe cau<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d a ſpecial bed to be made for her man <hi>John</hi> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> lie in; which bed was onely for ſpecial <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>rangers to lie in, or for her husband when <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> was not well: and ſhe lay her ſelf in the <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>xt Chamber to him, which ſhe locked up, &amp; <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>pt the Key thereof her ſelf.</p>
+            <p>But when ſhe had lain in bed an hour or <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>wo, ſhe began to think it very long to lye <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>one; ſo ſhe aroſe out of her bed, and went to <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> man <hi>John,</hi> ſhivering and ſhaking, and <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ting up his bed-cloths, he ſtarted; <hi>Who is <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ere,</hi> quoth he? <hi>It is I my ſweet <hi>Iohn,</hi>
+               </hi> quoth <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e, <hi>I am your Miſtreſs; it is an extreme cold <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ight, and I, lying alone, am almoſt ſtarved in <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Bed: Good <hi>Iohn</hi> afford me the favour of <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he Nights lodging by thy ſide, my <hi>Iohn,</hi> I <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ay thee. Alas poor Miſtriſs,</hi> quoth he, <hi>come <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>me lie cloſe: Yea, yea,</hi> quoth ſhe, <hi>ah! poor <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>eet <hi>Iohn;</hi> oh! ſweet, ſweet <hi>Iohn:</hi> oh! ſweet <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d good <hi>Iohn;</hi>
+               </hi> but here I leave them till the <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ext morning.</p>
+            <p>She got up very early in the morning, and <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>ing for <hi>John</hi> her man to go abroad with <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er, ſhe took him to the Church of Saint <hi>Bar<g ref="char:EOLhyphen"/>tholomews;</hi>
+               <pb n="7" facs="tcp:46274:5"/> and caſting for the Prieſt of the place, ſhe, with him perſwaded <hi>Iohn</hi> that they might then be married together; which with ſmall intreaty he was perſwaded to; and ſ<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> they returned home; and when they went to dinner, ſhe made him to ſit in her old husbands Chair by her ſelf at the end of the Table; at which his old fellow-ſervants began to <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>e <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and before Dinner was ended, ſhe took him about the neck and kiſſed him, and told her Servants that he was her Husband, and com<g ref="char:EOLhyphen"/>manded them to give him the reſpects due to a Maſter.</p>
+            <p>He alſo ſpake lovingly to them, and told them, that he would not forget that he was once their Fellow-Servant, but would deſerve their reſpects to the uttermoſt of his indeavour. Thus they ſpent the day in loving ioyings, only ſome over-ſight of the Workmen withal, and at night they went to Bed.</p>
+            <p>This new-married Bride was the next morning viſited by divers Goſſips of her acquaintance, that heard of the Wedding; who ſpent each of them their verdict, what the event of this her haſty match would be: which Goſſips did exceedingly diſcourage her. Oh! but (quoth ſhe) I will take an Order
+<pb n="8" facs="tcp:46274:5"/> for that; for I will curb him at the firſt, that will make ſure that he ſhall never crow over <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e. I warrant you.</p>
+            <p>And indeed <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e began to grow as great a Goſſip as any was in <hi>Newberry,</hi> and would ſometimes come home very late at night; in<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>much, that at laſt her Husband <hi>John</hi> went <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o bed, and locked her out; and took the Key <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> into his own chamber: and when the good <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ife ſaw that ſhe was ſhut out of doors, ſhe <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nocked very hard, <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ll at laſt her Husband looked ou<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> at the window and bad her to go look <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er lodging at night, where ſhe had been ſitting <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll day: <hi>Su<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Goſſips</hi> (quoth he) <hi>as you, the <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>age is the fi<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>te<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Lodging for, go to the Con<g ref="char:EOLhyphen"/>ſtable and beſpeak a <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ed of him.</hi>
+            </p>
+            <p>
+               <hi>Oh! dear Husband,</hi> quoth ſhe, <hi>be not ſo <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>gry, I pray yo<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> give me leave to come into my Bed, good ſweet H<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>sband, I pray you, <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd let me <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ot ſtand <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>us in the cold, leſt I <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oſe my life thereby:</hi> After many fine words wherewith ſhe <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ad intreated her Hus<g ref="char:EOLhyphen"/>band to come down and o<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>en the door, he came down to her, and <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>t her in: to whom ſhe diſſemblingly p<gap reason="illegible" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>nded to have loſt her Wedding Ring from off her Hand, who lo<g ref="char:EOLhyphen"/>vingly going fo<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>th with the Candle in his hand (in his ſhi<gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>) looked up and down upon
+<pb n="9" facs="tcp:46274:6"/> the ground for it: and ſhe the mean time ſtep<g ref="char:EOLhyphen"/>ping in, clapped to the door, and ſhut him out; whereat he was much perplexed, and knocked a long time in the cold before ſhe would an<g ref="char:EOLhyphen"/>ſwer, who at laſt opening the window, ha<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> him go look a Lodging with his Conſtable's Wife; and asked him whether he thought it good to lye in the cold in the ſtreet: <hi>Now</hi> (qd. ſhe) <hi>ſhe who was even now at your mercy, hath gotten you at hers. Oh ſweet Wife,</hi> quoth he, <hi>be not angry, but let me come in; I ſwear unto thee, that I will never ſhut thee forth of doors again, but thou ſhalt do what thou wilt and I will never meddle nor make with you whatſoever you do hereafter:</hi> where<g ref="char:EOLhyphen"/>upon ſhe came down and opened the door, and let him in; and there they made great pro<g ref="char:EOLhyphen"/>teſtations each to other, never to affront or fall out one with the other after; and with a good Sack-poſſet the Covenant was agreed between them.</p>
+            <p>Shortly after the King was to raiſe an Army of Souldiers againſt the Scots, who was riſen againſt the Engliſh; and <hi>Iack</hi> of <hi>Newberry</hi> raiſed at his own charges an hun<g ref="char:EOLhyphen"/>dred and fifty men; and allowed white Coats red Caps, and yellow Feathers; and led
+<pb n="10" facs="tcp:46274:6"/> them himſelf: fifty of them were valiant <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ſemen; fifty Pikes, and fifty Muſque<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s; all brave Steeds, good Arms, and va<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>nt men; who marching by before the <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ueen, Queen <hi>Katherine;</hi> ſhe called for him, <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> underſtanding what he was, after ſhe had <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> forth her hand for him to kiſs, ſhe promi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> to acquaint the King's Majeſty with his <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>e and great ſervice.</p>
+            <q>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="song">
+                        <head>A Song uſed by <hi>Jack</hi> of <hi>Newberry</hi> and his Souldiers.</head>
+                        <lg>
+                           <l>KIng <hi>Jamie</hi> of Scots hath raiſed</l>
+                           <l>an Army againſt <hi>England:</hi>
+                           </l>
+                           <l>
+                              <gap reason="illegible" extent="2 letters">
+                                 <desc>••</desc>
+                              </gap>t let him come, we'l thunder him back,</l>
+                           <l>he cannot us withſtand.</l>
+                        </lg>
+                        <lg>
+                           <l>
+                              <hi>
+                                 <gap reason="illegible" extent="2 letters">
+                                    <desc>••</desc>
+                                 </gap>ck</hi> of <hi>Newbery</hi> com's, proud Scots take heed</l>
+                           <l>with valiant Souldiers ſtout;</l>
+                           <l>'ho for brave <hi>England</hi> will ſight with you,</l>
+                           <l>and never will give out.</l>
+                        </lg>
+                        <lg>
+                           <l>
+                              <gap reason="illegible" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>ur milk-white Coats, red Caps,</l>
+                           <l>and yellow Feathers declare,</l>
+                           <l>
+                              <gap reason="illegible" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>ur Reſolution's ſtout and good,</l>
+                           <l>there Scots we will not ſpare.</l>
+                        </lg>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <pb n="11" facs="tcp:46274:7"/>
+            <p>Shortly after <hi>Jack</hi> of <hi>Newberry</hi> heard tha<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the King was to ride by <hi>Newberry:</hi> ſo he with his Servants went out into the field and finding an hill of Piſmires, drew his Sword and guarded it: And the King co<g ref="char:EOLhyphen"/>ming by, ſent for him to know the reaſon why he guarded that place with his ſword drawn, the King in perſon being to paſs by there: wha<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> returned anſwer. That he was buſie<g ref="char:punc">▪</g> and could not ſpeak with him: and the King is on Horſe-back, and I am on foot, therefore (quoth he) he may the better come to me. Tell the King, that I ſtand here to guard the la<g ref="char:EOLhyphen"/>borious Ants from their Ene<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>i<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s: which Meſſage being brought to the King, he went to <hi>Jac<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> of <hi>Newberry,</hi> expecting that it was done to make ſome jeſt for his pleaſure: and when the King came, <hi>Jack,</hi> with <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll his m<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n, fell on their knées, and cried, God ſave the King: your Sacred Majeſty (quoth he) hath vanquiſhed all mine Enemies. Now truſt me, quoth the King, you are <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tout Souldiers to fight againſt Butterflies, and withſtand ſuch mighty Gyants.</p>
+            <p>My dread Soveraign, quoth <hi>Jack</hi> of <hi>New<g ref="char:EOLhyphen"/>berry,</hi> not long ago, in my conceit, I ſaw the moſt provident nation of the Ants, ſum<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ned
+<pb n="12" facs="tcp:46274:7"/> their chief Peers to a Parliament, <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ich was held in the famous City of <hi>Drie<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſtie,</hi> the one and thirtieth day of <hi>September:</hi> 
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ereas by their Wisdoms I was choſen <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ir King: at what time alſo many Bills of <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>mplaint were brought in againſt divers <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>mbers in the Common-wealth, among <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>om the Mole was attained of High-treaſon <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their State, and therefore was baniſhed for <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>er from their quiet Kingdom: ſo was the <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>aſhopper and the Caterpiller: becauſe they <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>re not only idle, but alſo lived upon the la<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>rs of other men: Amongſt the reſt the <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>utterflie was very much miſliked, but few <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ſt ſay any thing to him, becauſe of his gol<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>n A<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>parel: who, through ſufference, grew <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ambitious and malapert, that the poor Ant <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>uld no ſooner get an Egg into her Neſt, but <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> would have it away, eſpecially againſt <hi>Eaſter</hi> 
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hich at length was miſliked.</p>
+            <p>This painted Aſs took ſnuff in the noſe, and <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>embled a great many other of his own Coat, <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> windy Wars to root theſe painful peo<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e out of the Land, that he himſelf might <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> above them Theſe were proud But<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>flies, quoth the King.</p>
+            <p>Whereupon I, with my men, quoth Iack, <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>pared our ſelves to withſtand them, till ſuch
+<pb n="13" facs="tcp:46274:8"/> time as your Majeſties Royal preſence pu<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> them to flight.</p>
+            <q>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="song">
+                        <head>The Song which <hi>Jack</hi> ſung with his men before the King.</head>
+                        <lg>
+                           <l>I Have taken upon me a charge</l>
+                           <l>to govern theſe poor Ants,</l>
+                           <l>That they may walk at large,</l>
+                           <l>to gather in their wants.</l>
+                        </lg>
+                        <lg>
+                           <l>That they may walk mo ſafe,</l>
+                           <l>to bring home their relief:</l>
+                           <l>And keep that which they have</l>
+                           <l>from every idle Thief.</l>
+                        </lg>
+                        <lg>
+                           <l>But now my King is here,</l>
+                           <l>I bow down low my knee,</l>
+                           <l>For we that vaunted here</l>
+                           <l>are Subjects unto thee.</l>
+                        </lg>
+                        <lg>
+                           <l>God bleſs thee Royal King,</l>
+                           <l>and ſend thee long to Reign,</l>
+                           <l>And joy in every thing,</l>
+                           <l>and freedom from all pain.</l>
+                        </lg>
+                        <lg>
+                           <l>I, and my men, and mine,</l>
+                           <l>my Ants, and all we have;</l>
+                           <pb n="14" facs="tcp:46274:8"/>
+                           <l>
+                              <gap reason="illegible" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>ommand us, we are thine,</l>
+                           <l>and ſo the King God ſave.</l>
+                        </lg>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <p>Now to return again to <hi>Jack</hi> and his <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ife, it fell out that ſhe fell ſick and dyed; <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> being buried <hi>Jack</hi> fell in love with one <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> his maids: and ſending for her Father, know what he would give with his Daugh<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>: he came to <hi>Newberry,</hi> and ſeeing the <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>alth of his Daughters ſweet-heart, and <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iſter, he was aſtoniſhed: for <hi>Iack</hi> had, <hi>
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>z.</hi>
+               <list>
+                  <item>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> one Room two hundred Looms all going.</item>
+                  <item>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>wo hundred Boys making Quills.</item>
+                  <item>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> hundred Women Carding.</item>
+                  <item>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>wo hundred Maids in another Room ſpin<g ref="char:EOLhyphen"/>ning.</item>
+                  <item>
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> hundred and fifty Boys picking of Wool</item>
+                  <item>
+                     <gap reason="illegible" extent="1 chunk">
+                        <desc>…</desc>
+                     </gap>ty Shiermen.</item>
+                  <item>
+                     <gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ght Rowers.</item>
+                  <item>
+                     <gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>urty Dyers in the Dy-houſe.</item>
+                  <item>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>wenty men in a Fulling-Mill.</item>
+                  <item>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>en fat Oxen he ſpent every week in his houſe, beſides, Butter, Cheeſe, Fiſh, &amp;c.</item>
+                  <item>Butcher for his own houſe.</item>
+                  <item>Baker for his own houſe.</item>
+                  <item>Brewer for his own houſe.</item>
+                  <pb n="15" facs="tcp:46274:9"/>
+                  <item>Five Cooks.</item>
+                  <item>Six Scullion-Boys.</item>
+                  <item>Divers Turn-ſpits, <hi>&amp;c.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>
+               <q>
+                  <hi>Sir, (quoth the old man) I wis the zee<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> you be bominable Rich, and cham content you ſhall have my Daughter, and God's Bleſſing and mine light on you both. I vaith cham but a poor man, but I thong God cham of good exclamation among my Neighbours and they will as zoon take my vice for any thing as a richer mans: thi<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>k I will beſtow you ſhall have with a very good will, becauſe che hear very good commendation of you in every place; therefore thick give you twen<g ref="char:EOLhyphen"/>ty Nobles, and a weanling Calf, and when I dye, and my Wiſe, you ſhall have the Re<g ref="char:EOLhyphen"/>velation of my Goods.</hi>
+               </q>
+            </p>
+            <p>But Iack made more reckoning of the wo<g ref="char:EOLhyphen"/>man's modeſtie, and virtues, than of his Fa<g ref="char:EOLhyphen"/>thers proffer; and he married her, and made a great Wedding: and inſtead of receiving the old mans dowrie, he gave him twenty pounds in money; beſides other good gifts.</p>
+            <p>
+               <q>
+                  <hi>Oh my good Zon!</hi> quoth the old man, <hi>Chriſts benizon be with thee evermore. For to tell thee true, we had zold all our
+<pb n="16" facs="tcp:46274:9"/> Kine to make money for my Daughters mar<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>age, and this zeven year we ſhould not <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ave been able to buy any more. Notwith<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>tanding we ſhould have zold all that ever we <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ad, before my poor wench ſhould have loſt <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>er marriage: I ſhould have zold my coat from my back, and my bed from under me, before my Daughter ſhould have gone with<g ref="char:EOLhyphen"/>out you. I thank you good Father and Mo<g ref="char:EOLhyphen"/>ther (quoth the Bride) and I pray God long to keep you in health: then the Bride knee<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ing down, did her duty to her Parents; who weeping for very joy, departed.</hi>
+               </q>
+            </p>
+            <p>Now there was one <hi>Randal Pert</hi> a Dra<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er, dwelling in <hi>Watling-ſtreet,</hi> who owed to <hi>Jack</hi> of <hi>Newberry</hi> five hundred pounds. And it happened that <hi>Jack</hi> came up to <hi>London;</hi> and as he went to his Cuſtomers, he met in the ſtreet this <hi>Randal Pert</hi> in a frock, carrying a Porter's Basket, and an old ragged Doublet, and a torn pair of Breeches, with his Hoſe out at Heels, and a pair of old broken ſlip-ſhooes on his feer, a Rope about his middle, and a greaſie Cap on his Head, and newly come out of Priſon.</p>
+            <p>Now was his Wife, who before for dain<g ref="char:EOLhyphen"/>tineſs would not ſoul her fingers, nor turn her head aſide for fear of rumpling her nem<g ref="char:EOLhyphen"/>kinger,
+<pb n="17" facs="tcp:46274:10"/> yet now glad to go about and waſh Bucks at the <hi>Thames</hi> ſide, and to be a chare<g ref="char:EOLhyphen"/>woman; her ſo<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t hand was now hardened with ſcouring, and inſtead of Gold Kings up<g ref="char:EOLhyphen"/>on her Lilly white fingers, her hands and fin<g ref="char:EOLhyphen"/>gers were now filled with chaps.</p>
+            <p>But when her husband eſpyed <hi>Jack</hi> of <hi>New<g ref="char:EOLhyphen"/>berry</hi> his Creditor, he ran away as faſt as he could, for fear of being arreſted: but he ſent his man after him: who ſeeing one purſue him, he ran the faſter; and in running, here he loſt one of his flip-ſhooes, and there ano<g ref="char:EOLhyphen"/>ther, ever looking behind him with great fear: At laſt his Breeches being tyed but with one point, that with the haſte he made, and the oldneſs thereof, brake, and his Breeches fell about his heels: and did ſo ſhackle him, that he fell down all along in the ſtreet with his Arſe bare, and an old ragged ſhirt, he lay ſweating and blowing, being quite worn out of breach: to whom the fellow came, and brought him to his Maſter: who took him to a Scrivener, to give him Bond for the pay<g ref="char:EOLhyphen"/>ment of the money: and the time of the payment of the money was to be paid when the ſaid <hi>Pert</hi> was Sheriff of <hi>London,</hi> a thing very unlikely.</p>
+            <p>Well, the Scrivener made the Bond, to
+<pb n="18" facs="tcp:46274:10"/> be paid when <hi>Randal Pert</hi> was Sheriff of <hi>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ondon,</hi> and thereunto ſet his hand for a Witneſs, and twenty perſons more that <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ood by.</p>
+            <p>And <hi>Jack</hi> of <hi>Newberry</hi> ſent for a new ſuit Apparel for him out of <hi>Birchen-Lane,</hi> and a <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>w ſhirt, and band; hat, hoſe, ſhooes, and all <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ings neceſſary, Merchant like; then he <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ok for him a ſhop in <hi>Canwick-ſtreet,</hi> and fur<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iſhed the ſame ſhop with a thouſand pounds <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>orth of Cloth, by which means, and other <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>avours which he did for him, he grew in good <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>redit again, and became very provident: and <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is wife turned to be the beſt Houſewife in t<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e Pariſh: and he ſoon got good cuſtom, and <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>as very provident: and increaſed in wealth <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o that he in ſhort time became one of the beſt men for wealth in the Pariſh: and there was <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o much notice taken of him, that he was <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſen Sheriff of <hi>London,</hi> and p<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> 
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>undred pounds every penny: and <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Houſe in his Shrevalty: and afterwards b<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ng an Alderman of <hi>Lon<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> died before <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>me to be Lo<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d Mayor: and left his w<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fe a gre<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Eſtate.</p>
+            <p>
+               <hi>Jack</hi> of <hi>Newberry,</hi> otherwiſe called Maſt<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <hi>John Winchcomb,</hi> being g<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n very old fell ſick, and after few dayes <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="19" facs="tcp:46274:11"/> his VVife buried him in great Pomp: and he left his VVife a great Eſtate, and many Legacies to Friends, and to many poor people were left by him: and to his Burial came the greateſt part of the Country all thereabouts, to ſee the good old man laid in his Grave, where we will leave him with this Epitaph.</p>
+         </div>
+         <div type="epitaph">
+            <pb n="20" facs="tcp:46274:11"/>
+            <head>EPITAPH.</head>
+            <l>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>F <hi>Newberry</hi> here lies valiant <hi>Jack,</hi>
+            </l>
+            <l>Shrouded in white, come to his end</l>
+            <l>
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> death that now hath broken his back:</l>
+            <l>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ho to his Country was a friend,</l>
+            <l>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n aid t<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> thoſe that labour lov'd;</l>
+            <l>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n help to poor, both blind, and lame,</l>
+            <l>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>en, Women, Children, all have prov'd</l>
+            <l>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he ſuccour ſweet that from him came.</l>
+            <l>
+               <hi>Winchcomb</hi> adieu! God hath thy Soul,</l>
+            <l>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hy body lies incloſed in earth,</l>
+            <l>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hy works brave Hiſtories do enroul,</l>
+            <l>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hy, life, thy fame, ev'n from thy birth.</l>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:46274:12"/>
+            <head>Theſe Books following are to be Sold by <hi>William Thackeray,</hi> in Duck-Lane, neer Weſt Smithfield.</head>
+            <div type="part">
+               <list>
+                  <item>THe famous Hiſtory of the Gentle-Craft</item>
+                  <item>The Book of Knowledge, of things un<g ref="char:EOLhyphen"/>known: the old, and beſt ſort.</item>
+                  <item>The Hiſtory of <hi>Thomas</hi> of <hi>Reding.</hi>
+                  </item>
+                  <item>The Hiſtory of the Golden Eagle.</item>
+                  <item>The Hiſtory of the <hi>Jews,</hi> a ſmall one.</item>
+                  <item>The Book of merry Riddles.</item>
+                  <item>Variety of Riddles and Songs.</item>
+                  <item>Corydons Complements.</item>
+                  <item>Robin the Cobler.</item>
+               </list>
+               <p>With all ſorts of Hiſtories New or Old.</p>
+            </div>
+            <div type="part">
+               <p>There is alſo to be had theſe Books of Di<g ref="char:EOLhyphen"/>vinity.
+<list>
+                     <item>
+                        <hi>FEnner's</hi> Sermon of Repentance</item>
+                     <item>A Sermon of <hi>Dives</hi> and <hi>Lazarus.</hi>
+                     </item>
+                     <pb facs="tcp:46274:12"/>
+                     <item>A warning piece for the ſlothful.</item>
+                  </list>
+               </p>
+               <p>
+                  <hi>Theſe three are not above three pence a piece.</hi>
+               </p>
+               <list>
+                  <item>The Godly Mans Gain, and Wicked Mans Woe.</item>
+                  <item>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>inners ſobs,</item>
+                  <item>The Chriſtians Guide.</item>
+               </list>
+               <p>
+                  <hi>Theſe three laſt are but two pence a piece.</hi>
+               </p>
+               <p>There is alſo two excellent Tables: One called, <hi>Chriſtus natus eſt,</hi> of the Birth of Chriſt.</p>
+               <p>The other, A Watch for a wife Mans Ob<g ref="char:EOLhyphen"/>ſervation: very good, pretty, and delight<g ref="char:EOLhyphen"/>ful things.</p>
+            </div>
+         </div>
+         <trailer>FINIS.</trailer>
+      </back>
+   </text>
+</TEI>
